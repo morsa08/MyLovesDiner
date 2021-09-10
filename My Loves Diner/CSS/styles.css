@@ -1,0 +1,157 @@
+body{
+  font-family: "poppins", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  /* font-family: "poppins"; */
+  /* font-family: "Noto Sans KR"; */
+}
+
+a:hover {
+  background-color: black;
+}
+
+a:visited {
+  color: white;
+}
+
+a {
+  font-family: "poppins", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+#title {
+  background-color: #212529;
+  position: sticky;
+  top: 0;
+}
+
+#splash {
+  color: #FFF1F1;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+  text-align: center;
+}
+
+.myloveslogosmall {
+  width: 30%;
+  height: auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+/* NAVBAR */
+.navcontainer {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: #b8115c;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(184, 17, 92)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-nav li {
+  background-color: #ffffff;
+  border: 2px solid #b8115c;
+}
+
+ul.nav a:hover, .navbar-nav li.active>a {
+  color: #fff;
+  background-color: #b8115c;
+  border: 2px solid #fff;
+}
+
+.nav-item {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #b8115c;
+}
+
+.navbar-dark .navbar-brand {
+  color:
+    #b8115c;
+}
+
+.navbar-brand {
+  font-family: 'Style Script', cursive;
+  font-size: 2.5rem;
+}
+
+.navbar-toggler {
+  margin-right: 1rem;
+}
+
+/* SECTIONS */
+.about {
+  background-color: #cc4b40;
+}
+
+.hours {}
+
+.location {
+  background-color: darksalmon;
+}
+
+/* MENU  */
+.menu-body {
+  text-align: center;
+  background-image: url("images/My-Loves-Wall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menugrid {
+  background-color: white;
+}
+
+
+.white {
+  background-color: white;
+}
+
+.menubutton {
+  background-color: #B8115C;
+  padding: .6% 0;
+}
+
+.menubutton:hover{
+  background-color: #f16c98;
+
+}
+
+#breakfast{scroll-margin-top: 100px;
+}
+
+#sandwiches{scroll-margin-top: 100px;
+}
+
+#lunchdinner{
+  scroll-margin-top: 100px;
+}
+
+.menusection{
+  font-family: "style script";
+font-size: xxx-large;
+}
